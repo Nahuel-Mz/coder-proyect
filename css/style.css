@@ -362,6 +362,30 @@ background-color: #1F1F1F;
     }
 }
 
-.navegation li :hover {
+/* .navegation li :hover {
     text-decoration: underline;
+} */
+
+.navegation li:hover > .item::before {
+    visibility: visible;
+    scale: 1 1;
+}
+
+.navegation > li .item {
+    color: #fff;
+    position: relative;
+    height: 100%;
+}
+
+.navegation > li > a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -20px;
+    left: 0px;
+    background: #fff;
+    transition: all ease-in-out 0.2s;
+    scale: 0 0;
+    visibility: hidden;
 }
