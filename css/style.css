@@ -46,8 +46,8 @@ background: linear-gradient(135deg, #04358C, #031863); */
 
 .back-img {
   /* background: linear-gradient(135deg, #010101, #12225C); */
-  /* background-image: url(../img/cerveceria\ 1927.jpg); */
-  background-color: #010101;
+  /* background-color: #010101; */
+  background-image: url(../img/blur-and-brignest.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -100,6 +100,8 @@ background: linear-gradient(135deg, #04358C, #031863); */
   animation-name: escalado;
   animation-duration: 3s;
   text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 7px 8px 24px -2px rgba(0,0,0,0.46) inset;
 }
 
 .imgMax {
@@ -246,7 +248,11 @@ background: linear-gradient(135deg, #04358C, #031863); */
   width: 100%;
   text-align: center;
   padding: 50px 0px;
-  background-color: #010101;
+  /* background-color: #010101; */
+  background-image: url(../img/blur-and-brignest.jpg  );
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -255,10 +261,10 @@ background: linear-gradient(135deg, #04358C, #031863); */
 
 .products h1 {
   font-family: "poppins", "arial";
-  font-size: 3rem;
+  font-size: 50px;
   font-weight: 900;
-  color: #c5d3d5;
-  text-transform: capitalize;
+  color: #ffb30e;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
 .container-btn {
@@ -272,13 +278,13 @@ background: linear-gradient(135deg, #04358C, #031863); */
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1400px;
   gap: 60px;
   margin: 50px 0px;
   flex-wrap: wrap;
 }
 
-.new_card-1 {
+/* .new_card-1 {
   width: 300px;
   height: 300px;
   background-image: url("../img/picada.jpg");
@@ -286,10 +292,10 @@ background: linear-gradient(135deg, #04358C, #031863); */
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 1rem;
-}
+} */
 .new_card-2 {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   background-image: url("../img/cerveza-1.jpg");
   background-position: center;
   background-size: cover;
@@ -297,8 +303,8 @@ background: linear-gradient(135deg, #04358C, #031863); */
   border-radius: 1rem;
 }
 .new_card-3 {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   background-image: url("../img/cerveza-2.png");
   background-position: center;
   background-size: cover;
@@ -306,8 +312,8 @@ background: linear-gradient(135deg, #04358C, #031863); */
   border-radius: 1rem;
 }
 .new_card-4 {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   background-image: url("../img/cerveza-3.jpg");
   background-position: center;
   background-size: cover;
@@ -315,8 +321,8 @@ background: linear-gradient(135deg, #04358C, #031863); */
   border-radius: 1rem;
 }
 .new_card-5 {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   background-image: url("../img/pizza1.jpg");
   background-position: center;
   background-size: cover;
@@ -324,8 +330,8 @@ background: linear-gradient(135deg, #04358C, #031863); */
   border-radius: 1rem;
 }
 .new_card-6 {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   background-image: url("../img/hamburguesa2.jpg");
   background-position: center;
   background-size: cover;
@@ -333,8 +339,8 @@ background: linear-gradient(135deg, #04358C, #031863); */
   border-radius: 1rem;
 }
 .new_card-7 {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   background-image: url("../img/lomito.jpg");
   background-position: center;
   background-size: cover;
@@ -347,10 +353,11 @@ background: linear-gradient(135deg, #04358C, #031863); */
 }
 
 .products p {
-  color: #c5d3d5;
+  color: #fff;
   text-align: center;
   font-size: 25px;
-  width: 50%;
+  width: 60%;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
 /* documento nosotros */
@@ -358,6 +365,11 @@ background: linear-gradient(135deg, #04358C, #031863); */
 .nosotros-back {
   background-color: #010101;
   height: 100vh;
+  background-image: url(../img/blur-and-brignest.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
 
@@ -381,13 +393,14 @@ background: linear-gradient(135deg, #04358C, #031863); */
 }
 
 .nosotros div p {
-  color: #c5d3d5;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 500;
   text-align: center;
   width: 60%;
   line-height: 35px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
 .container-1927-nosotros {
@@ -427,9 +440,7 @@ background: linear-gradient(135deg, #04358C, #031863); */
   }
 }
 
-/* .navegation li :hover {
-    text-decoration: underline;
-} */
+
 
 .navegation li:hover > .item::before {
   visibility: visible;
@@ -451,4 +462,14 @@ background: linear-gradient(135deg, #04358C, #031863); */
   transition: all ease-in-out 0.2s;
   scale: 0;
   visibility: hidden;
+}
+
+.container-1927-nosotros p::first-letter {
+color: #ffbf75;
+font-size: 35px;
+}
+
+.container-clientes p::first-letter {
+  color: #ffbf75;
+  font-size: 35px;
 }
