@@ -418,6 +418,74 @@ background: linear-gradient(135deg, #04358C, #031863); */
   gap: 50px;
 }
 
+/* contacto */
+
+.contack-back-img {
+  background-image: url("../img/blur-and-brignest.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contack-back {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container-info {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #1f1f1f;
+  padding: 80px;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border: 2px dashed #ffbf75;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+
+.form-list h2 {
+  color: #ffb30e;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+}
+
+.form-item label {
+  color: #c5d3d5;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-item input , textarea{
+  padding: 10px 5px;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
 /* anitaion */
 
 @keyframes animacion {
