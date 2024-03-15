@@ -4,7 +4,6 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  border: 1px solid red;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
@@ -45,6 +44,12 @@ background: linear-gradient(135deg, #04358C, #031863); */
   text-transform: capitalize;
 }
 /* main */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 .back-img {
   /* background: linear-gradient(135deg, #010101, #12225C); */
@@ -236,6 +241,7 @@ background: linear-gradient(135deg, #04358C, #031863); */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: auto;
 }
 
 .info-footer p {
@@ -368,7 +374,7 @@ background: linear-gradient(135deg, #04358C, #031863); */
 
 .nosotros-back {
   background-color: #010101;
-  height: 100vh;
+  /* height: 100vh; */
   background-image: url(../img/blur-and-brignest.jpg);
   background-position: center;
   background-size: cover;
@@ -383,7 +389,7 @@ background: linear-gradient(135deg, #04358C, #031863); */
   justify-content: space-between;
   align-items: center;
   padding: 30px 20px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .nosotros div img {
@@ -511,7 +517,7 @@ background: linear-gradient(135deg, #04358C, #031863); */
 }
 
 .client h1 {
-  margin: 20px 0px;
+  padding: 30px 0px;
   font-size: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
@@ -543,8 +549,6 @@ background: linear-gradient(135deg, #04358C, #031863); */
 
 .card-client {
   background-color: #1f1f1f;
-  width: 500px;
-  height: 300px;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
@@ -555,6 +559,8 @@ background: linear-gradient(135deg, #04358C, #031863); */
   align-items: center;
   justify-content: space-around;
   box-shadow: 10px 10px 44px -24px rgba(255,255,255,0.74) inset;
+  width: 500px;
+  height: 300px;
 }
 
 .card-client p {
