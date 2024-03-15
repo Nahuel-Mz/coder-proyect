@@ -512,12 +512,14 @@ background: linear-gradient(135deg, #04358C, #031863); */
 .client {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  height: 100vh;
+  gap: 10px;
 }
 
 .client h1 {
-  padding: 30px 0px;
+  /* padding: 20px 0px; */
   font-size: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
