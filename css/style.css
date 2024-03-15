@@ -557,14 +557,15 @@ background: linear-gradient(135deg, #04358C, #031863); */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   box-shadow: 10px 10px 44px -24px rgba(255,255,255,0.74) inset;
   width: 500px;
   height: 300px;
+  gap: 10px;
 }
 
 .card-client p {
-  text-align: center;
+  text-align: justify;
   width: 90%;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
