@@ -455,6 +455,7 @@ background: linear-gradient(135deg, #04358C, #031863); */
   flex-wrap: wrap;
   padding: 40px;
   gap: 30px;
+  height: 100vh;
 }
 
 .form-list {
