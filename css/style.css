@@ -374,7 +374,7 @@ background: linear-gradient(135deg, #04358C, #031863); */
 
 .nosotros-back {
   background-color: #010101;
-  height: 100vh;
+  /* height: 100vh; */
   background-image: url(../img/blur-and-brignest.jpg);
   background-position: center;
   background-size: cover;
@@ -394,7 +394,7 @@ background: linear-gradient(135deg, #04358C, #031863); */
 }
 
 .nosotros div img {
-  width: 500px;
+  width: 600px;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
@@ -443,7 +443,7 @@ background: linear-gradient(135deg, #04358C, #031863); */
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 
@@ -452,6 +452,9 @@ background: linear-gradient(135deg, #04358C, #031863); */
   width: 100vw;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 30px;
 }
 
 .form-list {
@@ -505,7 +508,7 @@ background: linear-gradient(135deg, #04358C, #031863); */
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 
@@ -515,8 +518,9 @@ background: linear-gradient(135deg, #04358C, #031863); */
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
-  gap: 10px;
+  height: auto;
+  gap: 30px;
+  padding: 30px;
 }
 
 .client h1 {
