@@ -46,8 +46,9 @@ background: linear-gradient(135deg, #04358C, #031863); */
 /* main */
 
 body {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content  1fr  max-content;
   min-height: 100vh;
 }
 
@@ -374,7 +375,7 @@ background: linear-gradient(135deg, #04358C, #031863); */
 
 .nosotros-back {
   background-color: #010101;
-  height: 100vh;
+  height: 100%;
   background-image: url(../img/blur-and-brignest.jpg);
   background-position: center;
   background-size: cover;
