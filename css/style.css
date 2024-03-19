@@ -46,9 +46,9 @@ background: linear-gradient(135deg, #04358C, #031863); */
 /* main */
 
 body {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: max-content  1fr  max-content;
+  grid-template-rows: max-content  1fr  max-content; */
   min-height: 100vh;
 }
 
